@@ -24,31 +24,6 @@ const VideoArea = () => {
               </div>
             </div>
           </div>
-          <div className="row">
-            <div className="col-12">
-              <div className="tp-vedio-wrap" >
-                <a
-                  className="popup-video tp-cursor-point-area" 
-                  onClick={() => setIsVideoOpen(true)}
-                  onMouseEnter={() => handleMouseEnter(true)}
-                  onMouseLeave={ () => handleMouseLeave(false)}
-                >
-                  <video                  
-                  className="play-video" 
-                  id="myVideo" 
-                  autoPlay 
-                  loop 
-                  playsInline
-                  muted
-                  alt="All the devices"
-                  src="http://weblearnbd.net/tphtml/videos/softec/softec-video.mp4"
-                  ref={videoEl}
-                  > 
-                  </video>
-                </a>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
 
