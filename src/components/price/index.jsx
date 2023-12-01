@@ -1,7 +1,6 @@
 import BreadcrumbFive from "@/src/common/breadcrumbs/breadcrumb-5";
 import TestimonialArea from "@/src/common/testimonial-area";
-import FooterFive from "@/src/layout/footers/footer-5";
-import HeaderSix from "@/src/layout/headers/header-6";
+import HeaderFour from "@/src/layout/headers/header-4";
 import React from "react";
 import Brand from "../about/brand";
 import CtaArea from "../contact/cta-area";
@@ -13,7 +12,7 @@ import FooterFour from "../../layout/footers/footer-4";
 const Price = () => {
   return (
     <>
-      <HeaderSix />
+      <HeaderFour />
       <div id="smooth-wrapper">
         <div id="smooth-content">
           <main>

@@ -1,7 +1,4 @@
 import BreadcrumbTwo from "@/src/common/breadcrumbs/breadcrumb-2";
-import TestimonialArea from "@/src/common/testimonial-area";
-import FooterFive from "@/src/layout/footers/footer-5";
-import HeaderSix from "@/src/layout/headers/header-6";
 import React from "react";
 import ServiceDetailsArea from "./service-details-area";
 import FooterFour from "@/src/layout/footers/footer-4";

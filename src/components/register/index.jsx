@@ -1,11 +1,11 @@
-import HeaderSeven from "@/src/layout/headers/header-7"; 
+import HeaderFour from "@/src/layout/headers/header-4"; 
 import React from "react";
 import RegisterArea from "./register-area";
 
 const Register = () => {
   return (
     <>
-      <HeaderSeven />
+      <HeaderFour />
       <RegisterArea />
     </>
   );

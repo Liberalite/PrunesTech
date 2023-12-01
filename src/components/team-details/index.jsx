@@ -1,6 +1,5 @@
 import BreadcrumbTwo from "@/src/common/breadcrumbs/breadcrumb-2";
-import FooterFive from "@/src/layout/footers/footer-5";
-import HeaderSix from "@/src/layout/headers/header-6";
+import HeaderFour from "@/src/layout/headers/header-4";
 import React from "react";
 import CtaArea from "../contact/cta-area";
 import TeamDetailsArea from "./team-details-area";
@@ -9,7 +8,7 @@ import FooterFour from "../../layout/footers/footer-4";
 const TeamDetails = () => {
   return (
     <>
-      <HeaderSix />
+      <HeaderFour />
       <div id="smooth-wrapper">
         <div id="smooth-content">
           <main>
