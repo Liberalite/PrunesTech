@@ -5,6 +5,7 @@ import React from "react";
 import Banner from "./banner";
 import Portfolio from "./portfolio";
 import PostboxArea from "./postbox-area";
+import FooterFour from "../../layout/footers/footer-4";
 
 const BlogDetails = () => {
   return (
@@ -18,7 +19,7 @@ const BlogDetails = () => {
             <PostboxArea />
             <Portfolio />
           </main>
-          <FooterFive style_contact={true} style_team={true} bg_style={false} />
+          <FooterFour style_contact={true} style_team={true} bg_style={false} />
         </div>
       </div>
     </>

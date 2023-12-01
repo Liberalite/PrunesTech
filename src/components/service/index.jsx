@@ -9,6 +9,7 @@ import TestimonialArea from "../../common/testimonial-area";
 import CtaArea from "../contact/cta-area";
 import FaqArea from "../homes/home-2/faq-area";
 import ServiceArea from "./service-area";
+import FooterFour from "../../layout/footers/footer-4";
 
 const Service = () => {
   return (
@@ -26,7 +27,7 @@ const Service = () => {
             <FaqArea style_service={true} />
             <CtaArea />
           </main>
-          <FooterFive style_contact={true} style_team={true} />
+          <FooterFour style_contact={true} style_team={true} />
         </div>
       </div>
     </>

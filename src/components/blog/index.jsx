@@ -5,6 +5,7 @@ import React from "react";
 import CtaArea from "../contact/cta-area";
 import BlogGrid from "./blog-grid";
 import Portfolio from "./portfolio";
+import FooterFour from "../../layout/footers/footer-4";
 
 const Blog = () => {
   return (
@@ -16,7 +17,7 @@ const Blog = () => {
         <Portfolio />
         <CtaArea />
       </main>
-      <FooterFive style_contact={true} style_team={true} />
+      <FooterFour style_contact={true} style_team={true} />
     </>
   );
 };

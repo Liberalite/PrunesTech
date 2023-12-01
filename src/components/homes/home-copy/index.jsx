@@ -10,6 +10,7 @@ import ProjectArea from "./project-area";
 import RankArea from "./rank-area";
 import ServicesArea from "./services-area";
 import TestimonialArea from "./testimonial-area";
+import FooterFour from "../../../layout/footers/footer-4";
 
 const HomeOne = () => {
   return (
@@ -27,7 +28,7 @@ const HomeOne = () => {
       <RankArea />
       <PriceArea />
       </main> 
-      <Footer />
+      <FooterFour />
       <ScrollToTop />
       </div>
       </div>

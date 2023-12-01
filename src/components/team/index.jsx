@@ -4,6 +4,7 @@ import HeaderSix from "@/src/layout/headers/header-6";
 import React from "react";
 import CtaArea from "../contact/cta-area";
 import TeamArea from "./team-area";
+import FooterFour from "../../layout/footers/footer-4";
 
 const Team = () => {
   return (
@@ -16,7 +17,7 @@ const Team = () => {
             <TeamArea />
             <CtaArea />
           </main>
-          <FooterFive style_contact={true} style_team={true} />
+          <FooterFour style_contact={true} style_team={true} />
         </div>
       </div>
     </>

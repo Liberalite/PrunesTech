@@ -1,6 +1,6 @@
 import ContextProvider from "@/src/context/ContextProvider";
-import FooterFive from "@/src/layout/footers/footer-5";
-import HeaderFive from "@/src/layout/headers/header-5";
+import FooterFour from "@/src/layout/footers/footer-4";
+import HeaderFour from "@/src/layout/headers/header-4";
 import React from "react";
 import BusinessBox from "./business-box";
 import CtaArea from "./cta-area";
@@ -18,7 +18,7 @@ const HomeFive = () => {
   return (
     <ContextProvider>
       <AnimateMouse />
-      <HeaderFive />
+      <HeaderFour />
       <div id="smooth-wrapper">
         <div id="smooth-content">
           <main className="fix">
@@ -33,7 +33,7 @@ const HomeFive = () => {
             <IntegrationArea />
             <BusinessBox />
           </main>
-          <FooterFive bg_style={false} />
+          <FooterFour bg_style={false} />
         </div>
       </div>
     </ContextProvider>

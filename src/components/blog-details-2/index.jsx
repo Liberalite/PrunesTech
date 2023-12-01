@@ -4,6 +4,7 @@ import HeaderSix from "@/src/layout/headers/header-6";
 import React from "react";
 import Portfolio from "../blog-details/portfolio";
 import PostboxArea from "../blog-details/postbox-area";
+import FooterFour from "../../layout/footers/footer-4";
 
 const BlogDetailsTwo = () => {
   return (
@@ -16,7 +17,7 @@ const BlogDetailsTwo = () => {
             <PostboxArea style_details_2={true} />
             <Portfolio />
           </main>
-          <FooterFive style_contact={true} style_team={true} bg_style={false} />
+          <FooterFour style_contact={true} style_team={true} bg_style={false} />
         </div>
       </div>
     </>

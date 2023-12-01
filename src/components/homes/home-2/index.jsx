@@ -1,5 +1,5 @@
-import FooterTwo from "@/src/layout/footers/footer-2";
-import HeaderTwo from "@/src/layout/headers/header-2";
+import FooterFour from "@/src/layout/footers/footer-4";
+import HeaderFour from "@/src/layout/headers/header-4";
 import React from "react";
 import CtaArea from "./cta-area";
 import FaqArea from "./faq-area";
@@ -14,7 +14,7 @@ const HomeTwo = () => {
   return (
     <>
 
-      <HeaderTwo />
+      <HeaderFour />
       <div id="smooth-wrapper">
       <div id="smooth-content">
       <main className="fix"> 
@@ -27,7 +27,7 @@ const HomeTwo = () => {
       <FaqArea />
       <CtaArea /> 
       </main>
-      <FooterTwo />
+      <FooterFour />
       </div>
       </div>
 

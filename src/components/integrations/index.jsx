@@ -4,6 +4,7 @@ import HeaderSix from "@/src/layout/headers/header-6";
 import React from "react";
 import IntegrationArea from "../homes/home-3/integration-area";
 import FeatureArea from "../homes/home-5/feature-area";
+import FooterFour from "../../layout/footers/footer-4";
 
 const Integrations = () => {
   return (
@@ -16,7 +17,7 @@ const Integrations = () => {
             <FeatureArea style_integraton={true} />
             <IntegrationArea style_integraton={true}/>
           </main>
-          <FooterFive style_contact={true} style_team={true} />
+          <FooterFour style_contact={true} style_team={true} />
         </div>
       </div>
     </>

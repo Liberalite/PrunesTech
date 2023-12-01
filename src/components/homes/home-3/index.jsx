@@ -1,5 +1,5 @@
-import FooterThree from "@/src/layout/footers/footer-3";
-import HeaderThree from "@/src/layout/headers/header-3";
+import FooterFour from "@/src/layout/footers/footer-4";
+import HeaderFour from "@/src/layout/headers/header-4";
 import React from "react";
 import TestimonialArea from "../home-3/testimonial-area";
 import BlogArea from "./blog-area";
@@ -14,7 +14,7 @@ import ServiceArea from "./service-area";
 const HomeThree = () => {
   return (
     <>
-      <HeaderThree />
+      <HeaderFour />
       <HeroArea />
       <CounterArea />
       <ServiceArea />
@@ -24,7 +24,7 @@ const HomeThree = () => {
       <TestimonialArea />
       <IntegrationArea />
       <BlogArea />
-      <FooterThree />
+      <FooterFour />
     </>
   );
 };

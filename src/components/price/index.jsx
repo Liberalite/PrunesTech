@@ -8,6 +8,7 @@ import CtaArea from "../contact/cta-area";
 import FaqArea from "../homes/home-2/faq-area";
 import PlanArea from "./plan-area";
 import PriceArea from "./price-area";
+import FooterFour from "../../layout/footers/footer-4";
 
 const Price = () => {
   return (
@@ -24,7 +25,7 @@ const Price = () => {
             <FaqArea style_service={true}/>
              <CtaArea />
           </main>
-          <FooterFive style_contact={true} style_team={true}/>
+          <FooterFour style_contact={true} style_team={true}/>
         </div>
       </div>
     </>
